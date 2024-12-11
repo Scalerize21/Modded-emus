@@ -1,0 +1,10 @@
+Changes:
+
+51F28 - 04 to 34 --> --ee-ignore-segfault=readwrite
+51CD70 - 6400 to A000 --> --vu0-mpg-cycles=160
+51CD80 - 6400 to A000 --> --vu1-mpg-cycles=160
+51FA1 - 36 to 16 --> --vu1-di-bits=0
+51E3B - 70 00 to 14 00 --> --vif-thread-chunk-size=20
+51F71 - 80 00 00 00 to 00 01 00 00 --> --iop-cycle-scalar=1
+51F14 - 08 00 00 00 to 00 00 00 00 --> --iop-tight-slice-count=0
+51F82 - 00 7D 00 00 to 40 9C 00 00 --> --cdvd-sector-read-cycles=40000
